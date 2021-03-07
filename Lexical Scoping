@@ -1,0 +1,7 @@
+#어휘범위
+#어휘범위를 지정사용하여, foo로 묶는 것보다는 깔끔하게 정리하여, 리턴을 시켜 값을 불러는게 오류가 적다.
+def get_adder(summand1):
+    def adder(summand2):
+        return summand1 + summand2
+
+    return adder
