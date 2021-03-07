@@ -1,0 +1,20 @@
+#for~esle
+#break:반복문 탈출
+#점수의 합계구하기
+#만약 40점미만인 점수가 있으면 불합격 출력하고 종료
+
+score=[90,87,77,90,60]
+s=0
+for x in score:
+    if x<40:
+        print('불합격')
+        break #반복문을 종료
+    s+=x#s=s+x
+else:#정상수행이 되었을 때 실행
+    print('합격:',s)
+
+#continue:계속
+score=[65,45,95,55,70]
+for x in score:
+    if x<60: continue
+    print('%d점 합격하셨습니다.'%x)
