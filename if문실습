@@ -1,0 +1,14 @@
+#다중조건
+#90이상 A, 80이상 B, 아니면 F
+
+score=int(input("점수는?"))
+if score>=90:
+    print('A')
+elif score>=80: #if+else 합성어 다중조건일땐 이것을 쓴다
+    print('B')
+elif score>=70: 
+    print('C')
+elif score>=60: 
+    print('D')
+else:
+    print('F')
