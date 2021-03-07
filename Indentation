@@ -1,0 +1,15 @@
+#들여쓰기 Indentation
+
+Yes:
+       foo = long_function_name(var_one, var_two,
+                                var_three, var_four)
+       meal = (spam,
+               beans)
+       
+No:    
+       foo = long_function_name(var_one, var_two,
+           var_three, var_four)
+       meal = (spam,beans)
+
+
+# 파이썬은 들여쓰기에 민감하기때문에 enter를 누른다면 tep으로 위에 적어넣은 줄과 위치를 맞춰야한다.
